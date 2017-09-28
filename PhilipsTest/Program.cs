@@ -23,7 +23,7 @@ namespace PhilipsTest
             ILocalHueClient client = new LocalHueClient("192.168.20.106");
             client.Initialize("001788fffe7b215e");
             var lights = client.GetLightsAsync();//://blog.falafel.com/winiot-philips-hue-touchscreen-app/();// ("1");
-           // v
+           // test line for git hub
             
             return true;
         }
